@@ -1,0 +1,7 @@
+library(readr)
+ALST <- read_csv("ALST_2026-11-02_12-59-52.csv")
+DEM <- read_csv("DEM_2026-11-02_13-00-01.csv")
+View(ALST)
+View(DEM)
+colnames(ALST)
+colnames(DEM)
