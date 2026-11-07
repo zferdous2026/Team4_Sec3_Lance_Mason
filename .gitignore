@@ -2,6 +2,7 @@
 .Rhistory
 .RData
 .Ruserdata
+<<<<<<< HEAD
 # Team4_Sec3_Lance_Mason
 ## Participant ID: The ID assigned to each participant to identify them across tables. 
 ## Treatment group (Char) : whether patients regularly consume or avoid peanuts in their daily lives.
@@ -18,3 +19,5 @@
 ## Positive control Wheal (mm): a reaction of the positive control skin test indicated the infant’s skin is capable of responding to an allergen. 
 ## Negative control wheal (mm): A skin prick test is conducted with no allergen to set a baseline skin reaction.
 ## Type of birth: Whether the patient was born vaginally or via C-section
+=======
+>>>>>>> 0d031b6769c7382bd785666dd332ba41b62c3468
