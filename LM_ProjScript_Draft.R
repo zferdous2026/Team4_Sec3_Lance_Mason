@@ -8,7 +8,9 @@ View(FAMHIST)
 
 SKINXFAM <- left_join(SKIN, FAMHIST, by = join_by(ParticipantId)) %>% select(-("RAWWHL":"ParticipantVisit/Visit.y")) %>% select(-("STUDYID.y":"ASTREAT.y")) %>%
   select(-("DYCRYN":"DOGYN")) %>% select(-("COWYN":"MEATAGE")) %>% select(-("MOMRNCN":"DADRNCN")) %>% select(-("MATEDUC":"MATEDSP")) %>% select(-("BFAGEPR":"CURRENT")) %>%
-  select(-("COMPSTC.x":"DISCSRS.x")) %>% select(-("GSTNAGE":"BCMPLYN")) %>% select(-("STUDYID.x":"TRTC.x")) %>% select(-("INFCDT.x":"SAMP.x"))
+  select(-("COMPSTC.x":"DISCSRS.x")) %>% select(-("GSTNAGE":"BCMPLYN")) %>% select(-("STUDYID.x":"TRTC.x")) %>% select(-("INFCDT.x":"SAMP.x")) %>% select(-"SEXC.x",-"FLUPTM.x",-"VISITNUM",-"ITT.x") %>%
+  select(-"SEQNO", -("MOMFDLN":"SEASONB"))
+
 View(SKINXFAM)
 
 colnames(SKINXFAM)
