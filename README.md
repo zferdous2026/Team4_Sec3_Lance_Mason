@@ -44,8 +44,6 @@
 
 ## PNTFLR: Peanut Flare (mm)
 
-## BRTHTYP: Type of Birth
-
 ## FHMTHSM: Mother Smoke During Pregnancy?
 
 ## SMKHSYN: Anyone Smoke in House?
@@ -99,3 +97,9 @@
 ## MINAGE: Earliest Age Any Solid Introduced
 
 ## NFOODS: Number of Foods in Diet at Baseline
+
+## AGEYRS: Age calculated into years
+
+## allergy_status: Categorical variable indicating whether a patient was allergic
+
+## BIRTH: Type of Birth
