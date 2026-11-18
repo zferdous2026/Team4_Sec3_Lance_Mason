@@ -11,8 +11,16 @@ navbarMenu(
   title = "Factors That Affect Occurrence of Allergy",
   tabPanel("Age at Cesation of Breast Feeding", value = "occ.BF"),
   tabPanel("Number of Foods in Diet at 3 months of Age", value = "occ.num.foods"),
-  tabPanel("Number of cigarrtes smoked in the house per week", value = "occ.num.cigs"))
+  tabPanel("Number of cigarrtes smoked in the house per week", value = "occ.num.cigs")),
+  navbarMenu(
+  title = "About The Creators or Homepage",
+  tabPanel("About the Creators"),
+  tabPanel("About the Data"),
+  tabPanel("Acknowledgemetns"),
+  )
 )
+
+
 
 LEAPWork <- function(input, output, session)
 {
